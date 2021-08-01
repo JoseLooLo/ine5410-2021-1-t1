@@ -57,6 +57,10 @@ void horde_finalize(horde_t *self)
     plog("[horde] Finalized\n");
 }
 
+/* --------------------------------------------------------- */
+/* ATENÇÃO: Não será necessário modificar as funções abaixo! */
+/* --------------------------------------------------------- */
+
 void horde_print(horde_t *self)
 {
     plog("\n");

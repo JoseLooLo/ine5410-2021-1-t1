@@ -56,7 +56,8 @@
     extern int chieftain_acquire_seat_plates(chieftain_t *self, int berserker);
 
     /**
-     * @brief Libera uma cadeira previamente adquirida via chieftain_acquire_seat_plates().
+     * @brief Libera uma cadeira e dois pratos previamente adquiridos via
+     * chieftain_acquire_seat_plates().
      *
      * @param self O chieftain.
      * @param pos Índice da cadeira ocupada pelo guerreiro, como um número no

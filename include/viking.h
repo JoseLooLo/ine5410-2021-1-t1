@@ -14,9 +14,9 @@
      */
     typedef struct viking
     {
-        int berserker;  /* É um berserker?               */
-        int type;       /* NORMAL_VIKING ou LATE_VIKING? */
-        int id;         /* Id único do viking.           */ 
+        int berserker;  /* É um berserker? 1 para sim, 0 para não. */
+        int type;       /* NORMAL_VIKING ou LATE_VIKING?           */
+        int id;         /* Identificador único do viking.          */ 
 
         chieftain_t *chieftain; /* Referência para chieftain. */
         valhalla_t *valhalla;   /* Referência para valhalla.  */

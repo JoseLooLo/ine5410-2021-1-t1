@@ -7,13 +7,13 @@
  * Configuração                                                               *
  *============================================================================*/
 
-#define NUMBER_OF_GODS 8
-#define RIVAL_TOLERANCE_RATE 0.05
+#define NUMBER_OF_GODS           8
+#define RIVAL_TOLERANCE_RATE     0.05
 #define SUPER_GOD_TOLERANCE_RATE 0.10
 
-#define NORMAL_VIKING 0
-#define LATE_VIKING 1
-#define WAIT_LATE_VIKING 100
+#define NORMAL_VIKING            0
+#define LATE_VIKING              1
+#define WAIT_LATE_VIKING         100
 
 typedef struct config {
     unsigned int horde_size;

@@ -13,13 +13,13 @@
      */
     typedef struct horde
     {
-        viking_t *vikings;      /* A horda de vikings.         */
-        int normal_vikings;     /* Qtde. de vikings normais.   */
-        int late_vikings;       /* Qtde. de vikings atrasados. */
-        int berserkers;         /* Qtde. de berserkers.        */
+        viking_t *vikings;      /* Array que armazena os vikings. */
+        int normal_vikings;     /* Qtde. de vikings normais.      */
+        int late_vikings;       /* Qtde. de vikings atrasados.    */
+        int berserkers;         /* Qtde. de berserkers.           */
 
-        chieftain_t *chieftain; /* Referência para chieftain. */
-        valhalla_t *valhalla;   /* Referência para valhalla.  */
+        chieftain_t *chieftain; /* Referência para chieftain.     */
+        valhalla_t *valhalla;   /* Referência para valhalla.      */
 
         /* TODO: Adicione aqui os atributos que achar necessários para implementar o
         comportamento da horda de vikings. Esses atributos deverão ser usados pelas

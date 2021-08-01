@@ -47,9 +47,9 @@
     extern void valhalla_finalize(valhalla_t *self);
 
     /**
-     * @brief Realiza uma prece para o deus god.
+     * @brief Realiza uma prece para um deus.
      * 
-     * @param god Um deus.
+     * @param god O deus que receberá a prece.
      */
     extern void valhalla_pray(valhalla_t *self, god_t god);
 
