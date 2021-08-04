@@ -59,7 +59,7 @@ void * viking_run(void *arg)
     /* Recupera o argumento de entrada (viking_t). */
     viking_t *viking = (viking_t *) arg;
 
-    plog("Viking %d created!\n", viking->id);
+    plog("[viking] Viking %d is now running!\n", viking->id);
     
     /* Se for NORMAL_VIKING come e depois reza. 
        Caso contrário (LATE_VIKING), somente reza. */
